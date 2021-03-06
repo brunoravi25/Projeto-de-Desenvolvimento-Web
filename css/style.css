@@ -1,19 +1,25 @@
 @charset "UTF-8";
 
 body {
+    max-height: 20000px;
     color: darkslategrey;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
-    background-color: #1C1C1C;
+    background-color: white;
 }
 
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
+    background-color:#1C1C1C;
+    height: 200px;
     color: white;
-    font-size: 30px;
-    ;
-
+    font-size: 42px;
+    text-align: center;
+    top: 0px;
+    position:sticky;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .p1 {
@@ -22,29 +28,51 @@ h1 {
     font-size: 119px;
     text-align: center;
     font-weight: bolder;
+    margin-top: 0px;
     margin-bottom: 0px;
+    background-color: #1C1C1C;
+ 
 }
 
 .p2 {
     font-family: 'Times New Roman', Times, serif;
     color: white;
+    height: 600px;
     letter-spacing: 5px;
     text-align: center;
-    margin-bottom: 600px;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #1C1C1C;
 }
 
 h3 {
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    font-family: 'Times New Roman';
     color: white;
-    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 100px;
+    background-color: #1C1C1C;
     
 }
 
 ol {
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    margin-left: 200px;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #1C1C1C;
+}
 
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
 }
