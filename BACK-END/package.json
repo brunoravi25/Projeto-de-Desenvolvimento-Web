@@ -1,16 +1,16 @@
 {
-    "name": "back",
-    "version": "1.0.0",
-    "description": "",
-    "main": "src/index.js",
-    "scripts": {
-      "start": "node src/index.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "json-server": "^0.16.2"
-    }
-  }
-  
+  "name": "back",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
